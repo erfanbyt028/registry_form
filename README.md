@@ -1,12 +1,39 @@
-# React + Vite
+# 📝 React Registration Form with Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **React registration form** built using **react-hook-form**, **Yup** for schema validation, and **Tailwind CSS** for a sleek dark UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚡ Real-time validation with `react-hook-form` (`mode: "onChange"`)
+- 📋 Schema-based validation using Yup
+- 📌 Fields included:
+  - **Email** (required, valid format)
+  - **Password** (required, min 6 characters)
+  - **Age** (required, number between 19–60)
+  - **City** (dropdown selection)
+  - **Gender** (radio buttons)
+  - **Accept Terms** (checkbox, required)
+- ❌ Error messages shown only after field interaction
+- 🧠 Submit button is disabled until the form is valid
+- 🌙 Styled with Tailwind CSS (dark mode design)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+| Package               | Purpose                                 |
+|------------------------|-----------------------------------------|
+| `react`               | Frontend library                        |
+| `react-hook-form`     | Form management                         |
+| `@hookform/resolvers` | Integration between RHF and Yup         |
+| `yup`                 | Schema validation                       |
+| `tailwindcss`         | Styling framework (utility-first CSS)   |
+
+---
+
+## screen shot
+<img width="1881" height="822" alt="Screenshot 2025-07-12 190909" src="https://github.com/user-attachments/assets/90f79cc2-bc75-4c36-89a0-e9cd6fbf2a21" />
+
+
