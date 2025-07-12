@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+select,
+::picker(select)
+{
+  @apply appearance-auto bg-blue-600 p-2 text-white;
+}
